@@ -19,6 +19,13 @@ typedef union {
     enum colors b;
 } DataValue;
 
+typedef int Int16;
+typedef float F32;
+
+struct Person {
+    Int16 id;
+    F32 salary;
+}
 
 int main() {
     my_int num = 5;
