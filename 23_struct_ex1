@@ -1,0 +1,110 @@
+Every car has common features, but some of them has unique features.
+We're going to implement car struct with common and unique features.
+
+First let's create an enum called Brand using typedef.
+
+/////////////PART 1/////////////
+enum Brands { // Do this using typedef with name Brand
+    BMW
+    Audi
+    Tesla
+    Ford
+};
+
+Also let's create a enum called included using typedef.
+
+/////////////PART 2/////////////
+enum includes { // Do this using typedef with name included
+    NO,
+    YES
+};
+
+Then let's create unique features for each brand using typedef.
+
+/////////////PART 3/////////////
+struct "BrandName"UniqueStr{ 
+    //Do this using typedef with name "BrandName"Unique
+    //For example struct FordUniqueStr and typdef must be FordUnique
+};
+
+Then let's create common features for each brand using typedef.
+
+BMW:
+    airConditioning (type enum included)
+    automaticTransmission (type enum included)
+    navigationSystem (type enum included)
+    parkingAssist (type enum included)
+    sunroof (type enum included)
+
+typedef struct BmwUniqueStr {
+    enum includes(this enum must be typef of enum includes) airConditioning;
+    enum includes(this enum must be typef of enum includes) automaticTransmission;
+    enum includes(this enum must be typef of enum includes) navigationSystem;
+    enum includes(this enum must be typef of enum includes) parkingAssist;
+    enum includes(this enum must be typef of enum includes) sunroof;
+} BmwUnique;
+
+Audi:
+    airConditioning (type enum included)
+    automaticTransmission (type enum included)
+    rearCamera (type enum included)
+    smartMirror (type enum included)
+Tesla:
+    autonomousDriving (type enum included)
+    playingGames (type enum included)
+    remoteControl (type enum included)
+    sunroof (type enum included)
+Ford:
+    selfParking (type enum included)
+    remoteControl (type enum included)
+    appleCarPlay (type enum included)
+    sunroof (type enum included)
+
+Create a union called UniqueFeatures with unique feature struct.
+
+/////////////PART 4/////////////
+typedef union UniqueFeatures {
+    //Fill this union with structs of unique features
+    //dont forget to use typedef names
+} UniqueFeature;
+
+/////////////PART 5/////////////
+Finally, create a struct called Car with common features and unique features.
+
+Then create a struct called Car with common features and unique feature:
+    Brand
+    year of manufacture int
+    miles driven int
+    price int
+    uniqueFeature (type union UniqueFeatures with typedef)
+
+/////////////PART 6/////////////
+Then create funciotn called printCar which takes a car as a parameter 
+and print all the features of the car.
+This function first prints common features and 
+then using the brand information prints unique features.
+void printCar(Car car){
+    //Print common features
+    //Print unique features
+    //Decide car model by looking brand enum
+}
+OUTPUT:
+    ----MAIN----
+    Car car1;
+    car1.brand = BMW;
+    car1.year = 2020;
+    car1.miles = 100000;
+    car1.price = 100000;
+    car1.unique.bmw.automaticTransmission = YES;
+    car1.unique.bmw.navigationSystem = YES;
+    car1.unique.bmw.parkingAssist = NO;
+    printCar(car1);
+    ----OUTPUT----
+    Brand: 0
+    Year: 2020
+    Miles: 100000
+    Price: 100000
+    Automatic Transmission: 1
+    Navigation System: 1
+    Parking Assist: 0
+

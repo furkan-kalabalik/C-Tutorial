@@ -1,0 +1,74 @@
+///////////////PART 1////////////////////
+
+Create an enum called EmployeeType using typedef
+different types of employees with following constants:
+
+CEO, MANAGER, WORKER
+
+/////PART2///////////////
+Create three different structures to hold CEO, Manager, Worker information.
+Use typedefs when you are creating the structures.
+
+CEO will have the following information:
+    int ceo_id
+    float salary
+    int num_of_workers
+    int num_of_managers
+
+Manager will have the following information:
+    int manager_id
+    float salary
+    int branch_id
+    int num_of_workers
+
+Worker will have the following information:
+    int worker_id
+    float salary
+    int branch_id
+
+///////PART3//////////
+Create a union to hold Ceo, Manager, Worker struct inside it.
+Call this union EmployeeInfo and create it with typedefs.
+
+///////PART4//////////
+Create a struct called Employee
+that hold enum for EmployeeType and union EmployeeInfo.
+Use typedefs when you are creating the structure.
+
+We will use enum to select union element we need to consider.
+//////PART5///////
+Create three function that return Employee:
+
+For example:
+Consider, for ceo you need to use union element that has ceo.
+Also you need to select EmployeeType as CEO.
+
+Employee createCeo(int ceo_id, float salary, 
+    int num_of_workers, int num_of_managers){
+    //Fill Here
+}
+
+Employee createManager(int manager_id, float salary, 
+    int branch_id, int num_of_workers){
+    //Fill Here
+}
+
+Employee createWorker(int worker_id, 
+    float salary, int branch_id){
+    //Fill Here
+}
+
+/////////////PART 6//////////////
+Create a function that takes Employee as argument and
+prints information about employees.
+
+For CEO:
+    CEO ID: 1 - SALARY: 56000 - WORKER NUM: 6532 - MANAGER NUM: 763
+For Manager:
+    MANAGER ID: 53 - SALARY: 32000 - BRANCH ID: 3 - WORKER NUM: 562
+For Worker:
+    WORKER ID: 678 - SALARY: 11000 - BRANCH ID: 2
+
+void printEmployee(Employee e){
+    //Fill here
+}
