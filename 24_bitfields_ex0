@@ -1,0 +1,11 @@
+Create a struct called Time with three fields: hours, minutes, seconds.
+Think hours, minutes and seconds as numbers and their range.
+In struct define bytefields for each field.
+Use unsigned integer type for each field.
+
+Create a function called showTime() that takes a Time struct as an argument.
+This function should print the time in the following format:
+    HH:MM:SS
+
+Also print size of Time struct.
+It is aligned?
