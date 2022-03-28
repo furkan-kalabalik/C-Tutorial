@@ -1,0 +1,18 @@
+int intArray [] = {1,2,3,4,5,6,7,8,9,10};
+//You can't use square brackets
+Print this array using pointer address.
+void printArray(int *ptr, int size){
+    //Fill your code
+    *(ptr+i)
+}
+
+Print array reverse using pointer address.
+void prinArrayReverse(int *ptr, int size){
+    //Fill your code
+}
+
+Print array starting from given index.
+Dont forget to change the size.
+void printArrayFromIndex(int *ptr, int size, int index){
+    //Fill your code
+}
