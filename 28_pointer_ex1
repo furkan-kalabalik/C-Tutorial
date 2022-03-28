@@ -1,0 +1,39 @@
+You will use random number generator 
+to generate random numbers.
+You will create 3x3 2D array and 
+fill it with random numbers.
+You will print the array.
+
+You cannot use brackets. 
+You need to use pointer aritmetics.
+
+Random number generator works as follows:
+int main() {
+    srand(time(NULL));
+    int random = rand() % 100;(Creates numbers between 0-100)
+    return 0;
+}
+
+//Part1
+Create a function that takes a 2D array as pointer,
+int row and int column as parameters.
+The function should fill the array with random numbers.
+void fill2DArray(int *arr, int rows, int cols) {
+    //your code here
+}
+
+//Part2
+Create a function that takes a 2D array as pointer,
+int row and int column as parameters.
+The function should print the array.
+void print2DArray(int *arr, int rows, int cols){
+    //your code here
+}
+
+//Part3
+Create a function that takes 3 2D arrays as parameters.
+The function must sum the first two array and store the result in the third array.
+void sum2DArray(int *arr1, int *arr2, int *arrSum, 
+    int rows, int cols) {
+    //your code here
+}
