@@ -1,0 +1,36 @@
+You will create a linked list. Search linked lists on google.
+
+First create a struct called NodeStruct without using typedef. 
+This struct will hold the int data 
+and  the pointer to the next node which has type struct NodeStruct next.
+
+Then using typedef do:
+
+typedef struct NodeStruct Node;
+
+You need to create a function called createNode. This function will take an int
+and returns a Node value. Inside the function you need to create a Node and
+initialize it with the int value. Also fill next with NULL. Then return created Node.
+
+
+Node createNode(int val){
+
+}
+
+Then in your main you will create 3 Node using the createNode function.
+Then create a Node *head variable. Then assign the address of the first Node
+to head.
+After chain first Node to the second Node. And goes like that. Since the
+last node not chained to any of other Nodes it next will point to NULL.
+Don't forget that.
+
+Then create a function called printList. This function will take a Node as
+parameter. Inside the function you will print the data of each node.
+
+void printList(Node *head){
+
+}
+
+OUTPUT:
+    3 -> 55 -> 1 -> 
+

@@ -1,0 +1,68 @@
+Create a enum called "Brake" with following properties
+use typedef :
+    ABS, EBS, ESP, ECS
+
+Create a enum called "Gear" with following properties
+use typedef :
+    AUTOMATIC, MANUAL
+
+Create a enum called "Color" with following properties
+use typedef :
+    RED, GREEN, BLUE, YELLOW, WHITE, BLACK
+
+Create a enum called "Fuel" with following properties
+use typedef :
+    DIESEL, PETROL, HYBRID
+
+Create a struct called "Car" with following properties
+use typedef :
+    int price;
+    int year;
+    int km;
+    Brake brake;
+    Gear gear;
+    Color color;
+    Fuel fuel;
+
+Create function called setPrice with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the price of the car
+
+Create function called setYear with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the year of the car
+
+Create function called setKm with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the KM of the car
+
+Create function called setBrakeType with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the Brake of the car
+
+Create function called setGear with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the Gear of the car
+
+Create function called setColor with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the Color of the car
+
+Create function called setFuel with following properties
+    - takes a Car struct pointer as a parameter
+    - sets the Fuel of the car
+
+Create a function called constructCar that constructs your car
+using set functions.
+
+void constructCar(Car *car, int price, int year, int km, Brake brake,
+    Gear gear, Color color, Fuel fuel){
+        //Fill here
+}
+
+Create another function called printCar that takes Car struct poiinter
+and prints car features to terminal.
+
+void printCar(Car *car) {
+    //Fill here
+}
