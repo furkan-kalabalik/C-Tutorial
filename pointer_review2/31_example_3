@@ -1,0 +1,110 @@
+Create 2 define at starting of your program
+#define PRODUCT_TYPE_COUNT 5
+#define PRODUCT_COUNT_PER_TYPE 6
+
+Create a enum called "ProductType" using typedef and assign the following values to the enum:
+    FRUIT, SNACK, VEGETABLE, MEAT, BREAD
+
+Create a struct called "Product" with the following members:
+use typedef
+    float price;
+    int stock;
+    int valid;
+
+Create a 5x6 array of Product called "products" in main
+Product products[PRODUCT_TYPE_COUNT][PRODUCT_COUNT_PER_TYPE] = {0};
+In this array first line is fruits and second is snacks and goes like that
+You can use something like that products[FRUIT][0], products[SNACK][2]....
+But in this example, again, we will not use square brackets :)
+
+Create a function called printMenu() that prints the following menu:
+    1. Add a product
+    2. Remove a product
+    3. Update a product
+    4. Print all products
+    5. Exit
+
+If the user selects 1, the user should be prompted for the product type, 
+the product price, and the product stock. Also you need to make valid = 1 to
+indicate this place filled with a product.
+
+This process will be done in a function called addProduct():
+
+void addProduct(Product *products) {
+    //Fill your code here
+}
+
+Enter the product type(F, S, V, M, B): F
+Enter the product price: 1.5
+Enter the product stock: 10
+Product FRUIT added successfully.
+
+If user selects 2, the user should be prompted for the product type.
+If the product type is valid, the product should be removed.
+
+This process will be done in a function called removeProduct():
+
+void removeProduct(Product *products) {
+    //Fill your code here
+}
+
+Enter the product type(F, S, V, M, B): F
+Which product do you want to remove: 0
+Product FRUIT 0 deleted.
+
+If user selects 3, the user should be prompted for the product type.
+If the product type is valid, the user should be prompted for the product price
+and the product stock.
+
+This process will be done in a function called updateProduct():
+
+void updateProduct(Product *products) {
+    //Fill your code here
+}
+
+Enter the product type(F, S, V, M, B): F
+Which product do you want to update: 0
+Enter the product price: 1.5
+Enter the product stock: 10
+Product FRUIT 0 updated.
+
+If user selects 4, all valid products should be printed with invalid ones as follows.
+          (price-stock) if it is valid.
+          INVALID else.
+
+void printProducts(Product *products) {
+    //Fill your code here
+}
+
+Fruit 0: Invalid
+Fruit 1: Invalid
+Fruit 2: Invalid
+Fruit 3: Invalid
+Fruit 4: Invalid
+Fruit 5: Invalid
+Snack 0: Invalid
+Snack 1: Invalid
+Snack 2: Invalid
+Snack 3: Invalid
+Snack 4: Invalid
+Snack 5: Invalid
+Vegetable 0: Invalid
+Vegetable 1: Invalid
+Vegetable 2: Invalid
+Vegetable 3: Invalid
+Vegetable 4: Invalid
+Vegetable 5: Invalid
+Meat 0: 65.00, 36
+Meat 1: Invalid
+Meat 2: Invalid
+Meat 3: Invalid
+Meat 4: Invalid
+Meat 5: Invalid
+Bread 0: Invalid
+Bread 1: Invalid
+Bread 2: Invalid
+Bread 3: Invalid
+Bread 4: Invalid
+Bread 5: Invalid
+
+If user selects 5, the program should exit.

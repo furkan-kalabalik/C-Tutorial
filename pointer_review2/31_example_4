@@ -1,0 +1,168 @@
+Create a struct called Worker with the following properties using typedef:
+    state: BUSY or IDLE(enum)
+    id: unique id of the worker(int)
+    remainingTime: how much time the worker has left to complete the current task(int)
+
+Create an array of workers with size 10 in main function.
+Initialize array of workers with IDLE state and remaining time 0 and give id.(for loop)
+Create a do while loop, take user choice:
+
+do {
+    print menu
+    take user choice
+    make operation according to user choice
+} while(until exit is selected)
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit 
+
+void printMenu(){
+    //Fill Here
+}
+
+If user choice is 1, search for IDLE worker in your array.
+If you find one, ask user to enter the task duration(remainingTime 0-10).
+Update the worker state to BUSY and remaining time to the task duration.
+In every loop iteration, decrease remainingTime by one. 
+If BUSY worker's remaningTime reaches 0, make its state IDLE and print
+Worker%d is IDLE now. to screen.
+
+If user choice is 1 and there is no IDLE worker, print No IDLE worker found.
+
+If user choice is 2, print the status of all workers.
+
+If user choice is 3, just we decrease remainingTime by one for BUSY workers.
+
+If user choice is 4, exit the loop.
+
+SAMPLE OUTPUT:
+    1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 1
+Worker 0 will serve you
+Enter the task time: 4
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 2
+
+
+WORKER STATUS
+Worker 0 is busy
+Worker 1 is idle
+Worker 2 is idle
+Worker 3 is idle
+Worker 4 is idle
+Worker 5 is idle
+Worker 6 is idle
+Worker 7 is idle
+Worker 8 is idle
+Worker 9 is idle
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 2
+
+
+WORKER STATUS
+Worker 0 is busy
+Worker 1 is idle
+Worker 2 is idle
+Worker 3 is idle
+Worker 4 is idle
+Worker 5 is idle
+Worker 6 is idle
+Worker 7 is idle
+Worker 8 is idle
+Worker 9 is idle
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 3
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 3
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 2
+
+
+WORKER STATUS
+Worker 0 is busy
+Worker 1 is idle
+Worker 2 is idle
+Worker 3 is idle
+Worker 4 is idle
+Worker 5 is idle
+Worker 6 is idle
+Worker 7 is idle
+Worker 8 is idle
+Worker 9 is idle
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 3
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 2
+
+
+WORKER STATUS
+Worker 0 is busy
+Worker 1 is idle
+Worker 2 is idle
+Worker 3 is idle
+Worker 4 is idle
+Worker 5 is idle
+Worker 6 is idle
+Worker 7 is idle
+Worker 8 is idle
+Worker 9 is idle
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 3
+DONE!!!!! Worker 0 is now idle
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit
+Enter your choice: 2
+
+
+WORKER STATUS
+Worker 0 is idle
+Worker 1 is idle
+Worker 2 is idle
+Worker 3 is idle
+Worker 4 is idle
+Worker 5 is idle
+Worker 6 is idle
+Worker 7 is idle
+Worker 8 is idle
+Worker 9 is idle
+
+1. Assign task to a worker
+2. Display the status of the workers
+3. Next iteration
+4. Exit

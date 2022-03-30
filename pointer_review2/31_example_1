@@ -1,0 +1,34 @@
+Create char arrays in your main as follows:
+    char word1[] = {'h', 'e', 'l', 'l', 'o', '\0'};
+    char word2[] = {'w', 'o', 'r', 'l', 'd', '\0'};
+    char word3[36];
+
+Create a function callet merge that takes 3 parameters:
+    char *word1
+    char *word2
+    char *word3
+
+In this function word1 and word2 should be merged into word3.
+Don't forget to add '\0' at the end of word3.
+
+You cannot use [], you need to use pointer arithmetic.
+
+void merge(char *word1, char *word2, char *word3)
+{
+    
+}
+
+Create another function called printWord that takes a parameter:
+    char *word
+
+In this function you will print given word, char by char until
+you reach '\0'.
+
+In your main use word1 and word2 that is defined at line 2 and line 3.
+Then also define word3 in your main as line4. After that call merge with
+word1, word2 and word3. Then after merging call printWord with word3.
+
+OUTPUT:
+    hello
+    world
+    hello world

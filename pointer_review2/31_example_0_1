@@ -1,0 +1,35 @@
+Create a struct called Student that contains the following data:
+    int id;
+    float examResults[3];
+
+Create a struct called Class that contains the following data:
+    int numberOfStudents;
+    Student *students;
+
+Create a function that takes a pointer to a Class and returns the average of all exam results.
+
+float classAverage(Class *c) {
+    
+}
+
+Create a function called mostSuccessfulStudent that takes a pointer to a Class and 
+returns a pointer to the student with the highest average exam result.
+
+Student *mostSuccessfulStudent(Class *c) {
+    
+}
+
+--------------------------------------------------------------------------------
+
+Inside main, create an array of Students called students.
+Then initialize your students array with the following data:
+    Student students[3] = {
+        {1, {1.0, 2.0, 3.0}},
+        {2, {4.0, 5.0, 6.0}},
+        {3, {7.0, 8.0, 9.0}}
+    };
+
+Then create a Class called class and initialize it with the following data:
+    Class class = {3, students};
+
+Finally, call your classAverage and mostSuccessfulStudent functions and print the results.
