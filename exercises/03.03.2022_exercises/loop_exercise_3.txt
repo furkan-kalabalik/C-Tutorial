@@ -1,0 +1,9 @@
+Write a C program to input two numbers from user and find LCM (Lowest Common Multiple).
+
+Input
+
+Input number1: 12
+Input number2: 30
+
+Output
+LCM = 60

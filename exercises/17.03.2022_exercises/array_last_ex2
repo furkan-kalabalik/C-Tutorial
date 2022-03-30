@@ -1,0 +1,16 @@
+int arr[13] = {1, 2, 3, 4, 1, 3,14, 13, 45, 56, 3, 5, 7};
+
+For a given array, write a function that takes an array and 
+a number,
+as input and return the frequency of the given number 
+in the array.
+
+int calculateFrequency(int arr[], int x){
+    //Fill here
+}
+
+prinf("Frequency of %d is %d\n", x, calculateFrequency(arr, x));
+
+OUTPUT:
+    Enter number you want to find frequency: 3
+    Frequency of 3 is 3

@@ -1,0 +1,5 @@
+Write a C program to create menu driven calculator that performs basic arithmetic operations (add, subtract, multiply and divide) using switch case.
+
+INPUTS
+------
+Two number and operation from user

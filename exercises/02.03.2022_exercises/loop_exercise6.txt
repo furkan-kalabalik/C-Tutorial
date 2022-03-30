@@ -1,0 +1,11 @@
+Write a C program to find sum of all numbers in given range with using loop.
+
+upper limit and lower limit will taken from user.
+
+Example
+-------- 
+lower range = 10
+upper range = 25
+result = 280
+
+so sum of all numbers between 10-25 will be calculated.

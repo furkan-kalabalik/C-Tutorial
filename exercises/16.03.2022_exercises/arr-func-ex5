@@ -1,0 +1,18 @@
+int diag1[][] = {
+                    {4, 0, 3}
+                    {0, 1, 0}
+                    {5, 0, 4}
+                };
+
+For a given 2d arrays, if sum of left and right diagonals are same, then it is a magic square.
+For given array, write a function, which returns 1 if it is a magic square, else 0.
+
+HINT:
+    You need to just Calculte the sum of left and right diagonals.
+    Use two for loop, think your numbers, make table on paper then write code.
+    Create function that takes your array, and returns 1 if it is a magic square, else 0.
+    Use your function to check if given array is a magic square.
+    Don't forget to call function in main function. You need to calculation in function.
+OUTPUT:
+	diag1: "Magic Square"
+    diag2: "Not a Magic Square"

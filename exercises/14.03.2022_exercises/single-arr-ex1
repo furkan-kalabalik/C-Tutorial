@@ -1,0 +1,13 @@
+int freqArray[12] = {2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 7, 7}; 
+
+Write a program in C to find the number of times 
+(frequency) occurs a given number in an array.
+
+HINT:
+    Create a counter value and search input in the array and 
+    when you find value inside array, increment the counter.
+INPUT:
+    Enter number that you want to find frequency: 4
+OUTPUT:
+	freqArray is 	  : 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 7, 7
+	Frequency of 4    : 4

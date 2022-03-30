@@ -1,0 +1,9 @@
+Write a C program to print pattern for N rows. N will be entered by user.
+
+If your input is 6, expected output shown in below.
+
+******
+ ******
+  ******
+   ******
+    ******

@@ -1,0 +1,11 @@
+Write a C program to input a number from user and calculate the factorial of given number. Create function named factorial
+
+Example
+
+Input
+------
+Input any number: 5
+
+Output
+-------
+Factorial of 5 = 120

@@ -1,0 +1,51 @@
+int arr1[5] = {1, 2, 3, 4, 5};
+int arr2[5] = {44, 55, 1, 2, 3};
+int intersect_result[5] = {0};
+int union_result[10] = {0};
+
+Write a function called intersection, which accepts two arrays 
+and a result array. Fill result array with only the elements that 
+are present in both arrays.
+And this function also return size of intersect_result array
+
+int intersectionArr(int arr1[], int arr2[], int intersect_result[]) {
+    
+}
+
+OUTPUT:
+    Intersection of arrays: 1,2,3
+int arr1[5] = {1, 2, 3, 4, 5};
+int arr2[5] = {44, 55, 1, 2, 3};
+int union_result[10] = {0};
+
+Write a function called union, which accepts two arrays 
+and a result array. Fill result array with only the elements 
+that are present in either of the arrays. And this function also 
+return size of union_result array
+
+int unionArr(int arr1[], int arr2[], int union_result[]) {
+    int index = 0;
+
+    //Copy the arr1 to union_result
+    for(int i = 0; i < 5; i++){
+        union_result[index] = arr1[i];
+        index++;
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 5; j++)
+        {
+            if(arr1[i] == arr2[j]){
+                intersect_result[index] = arr1[i];
+                index++;
+            }
+        }
+        
+    }
+
+}
+
+OUTPUT:
+    Union of arrays: 1,2,3,4,5,44,55
+    

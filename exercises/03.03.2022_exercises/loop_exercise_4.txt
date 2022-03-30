@@ -1,0 +1,9 @@
+Write a C program input two numbers from user and find the HCF (Highest Common Factor). 
+
+Input
+
+Input number1: 12
+Input number2: 30
+
+Output
+HCF = 6

@@ -1,0 +1,17 @@
+Write a C program to find multiplication of two number from user. If the result is greater than 200 print error.
+
+INPUTS
+-------
+int a,b
+
+OUTPUT
+------
+int result
+
+Test Case
+----------
+INPUTS					OUTPUT
+a = 10, b = 15			result = 150
+
+INPUTS					OUTPUT
+a = 24, b = 24 			Error ! Result is > 200, result : 576

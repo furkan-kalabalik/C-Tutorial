@@ -1,0 +1,7 @@
+Write C program that user try to guess defined number.
+
+Explanation
+-----------
+you will need to define constant number and user need to find it with entering number from console.
+If user's guess is wrong, print message that user's guess is wrong. user need to try again. you must not finish the program.
+If user's guess is correct, print that is correct and finish the program.

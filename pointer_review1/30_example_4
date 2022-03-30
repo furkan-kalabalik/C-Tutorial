@@ -1,0 +1,11 @@
+Write a program in C to compute the sum of all elements in an array using pointers.
+
+int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+You need to use pointer arithmetic. Don't forget
+to return sum of array.
+
+int sum(int *ptr, int n)
+{
+    //Fill here
+}

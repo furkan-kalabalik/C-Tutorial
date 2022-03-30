@@ -1,0 +1,5 @@
+Write C program to find number is equals 0 or positive or negative with only using switch case.
+
+INPUT
+------
+User will enter the number

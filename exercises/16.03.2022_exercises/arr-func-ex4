@@ -1,0 +1,80 @@
+char paper [10][10] = {
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+    {'_', '_','_','_','_','_','_','_','_','_'},
+};
+
+void printPaper(char paper[10][10]){
+
+}
+
+
+
+void draw(char paper[10][10], int x, int y, char c){
+
+}
+
+while(1){
+    printf("Enter c: ");
+    scanf(" %c", &c);
+    if(c == 'x')
+    {
+        break;
+    }
+    printf("Enter x: ");
+    scanf("%d", &x);
+    printf("Enter y: ");
+    scanf("%d", &y);
+    draw(paper, x, y, c);
+    printPaper(paper);
+}
+Write a function called print(paper[10][10]) that prints the array to screen.
+Write a function called draw(paper[10][10], x, y, char) that draws a 
+character at the given x and y coordinates.
+Write a function called erase(paper[10][10], x, y) that erases a character
+at the given x and y coordinates.
+
+After printing these function, take char inputs from user, until user enters
+'q'. Otherwise take input char from user, take input x and y coordinates,
+and call the draw function. After every input call the print function.
+
+OUTPUT:
+	Enter char: a
+    Enter x: 1  
+    Enter y: 1
+    Drawing...
+    __________
+    _a________
+    __________
+    __________
+    __________
+    __________
+    __________
+    __________
+    __________
+    __________
+
+    Enter char: b
+    Enter x: 2
+    Enter y: 2
+    Drawing...
+    __________
+    _a________
+    __b_______
+    __________
+    __________
+    __________
+    __________
+    __________
+    __________
+    __________
+
+    Enter char: q
+    Quitting...

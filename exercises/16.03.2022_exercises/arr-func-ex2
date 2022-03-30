@@ -1,0 +1,26 @@
+int arr[]= 
+{1, 3, 3, 8, 4, 3, 2, 3, 3};
+1,3,3,8 = 15 splittable
+3,2,3,7 = 15
+
+Write a function in C to check if an array can be splitted 
+in such a position that, 
+the sum of left side of the splitting is equal 
+to the sum of the right side. If it
+can be splittable, return 1, else return 0. 
+
+int isEqual(int array[], int length) {
+    int equal = 
+    
+    if(equal)
+        return 1;
+    else
+        return 0;
+}
+
+HINT:
+    Write a function takes array as argument. Inside function calculate sum of
+    both sides and check if they are equal, if they are equal, return 1, else return 0.
+OUTPUT:
+    "They can be splittable"
+    "They cannot be splittable"

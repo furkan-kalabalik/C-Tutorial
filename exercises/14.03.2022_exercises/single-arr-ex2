@@ -1,0 +1,11 @@
+int exampleArray2[7] = {2, 7, 4, 7, 8, 3, 4}; 
+
+Write a program in C to find the repeating elements 
+in a given array.
+
+HINT:
+	Use two for loop and search current element in same array. 
+	Be aware of the index.
+OUTPUT:
+	exampleArray2 is 	  : 2, 7, 4, 7, 8, 3, 4
+	Repeating elements    : 4 7

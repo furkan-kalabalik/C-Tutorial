@@ -1,0 +1,12 @@
+Write a recursive function in C to find GCD (HCF) of two numbers with using recursive.
+
+Example
+
+Input
+----------------------
+Input first number: 10
+Input second number: 15
+
+Output
+-------------------------
+HCF of 10 and 15 = 5

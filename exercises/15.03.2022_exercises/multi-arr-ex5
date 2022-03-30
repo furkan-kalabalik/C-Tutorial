@@ -1,0 +1,19 @@
+char words[4][4] = {
+                    {'d','o','n','e'},
+                    {'z','o','n','e'},
+                    {'m','a','i','n'},
+                    {'w','h','e','n'},
+                };
+char searched[4] = {'w','h','e','n'};
+
+You are given an 2D array filled with words and a word to search.
+Search given word in your, word array. 
+If you found word, print the index of row,
+that includes word. If you cannot found, just print, 
+"Your word is not in the word list"
+
+HINT:
+    Process every row and compare it with search word. Think every row like a single dimensional array.
+    Compare every character. If you find a character that is not match, break loop and move on the next row.
+OUTPUT:
+	"Searched word is in the index 3."

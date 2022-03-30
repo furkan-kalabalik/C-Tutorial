@@ -1,0 +1,15 @@
+int array1[2][2] = {{1,2},{4,5}};
+int array2[2][2] = {{1,2},{4,5}};
+
+Write a program in C to accept two 2d array and 
+check whether they are equal
+
+HINT:
+    Use two for loop for rows and columns. 
+    Check every corresponding index,
+    and compare them. If you found a mismatch, 
+    break loop. Use flag to check
+    whether they are equal or not.
+OUTPUT:
+	For equal case: ----> "Arrays are equal."
+    For not equal case: ----> "Arrays are not equal."

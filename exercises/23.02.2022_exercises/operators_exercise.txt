@@ -1,0 +1,13 @@
+EXERCISE
+
+take 4 variable from user a,b, rshift, lshift. Then make shift operation with values you take from user and also modulo operation. For example
+
+c = a << lshift
+c = a >> rshift
+c = b >> rshift
+c = b << lshift
+c = a % b
+c = b % a
+
+print the c value on each operation.
+

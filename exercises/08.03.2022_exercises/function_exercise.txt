@@ -1,0 +1,13 @@
+Write a C program to input any number from user and find cube of given number using function. Create function below
+
+return_type cube (argument(s))
+
+Example
+
+Input
+-----
+Input any number : 5
+
+Output
+------
+Cube of 5 = 125

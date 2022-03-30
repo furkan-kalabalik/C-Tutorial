@@ -1,0 +1,33 @@
+int diag1[3][3] = {
+                    {4, 0, 3},
+                    {0, 1, 0},
+                    {5, 0, 4}
+                };
+4 -> (0,0)     3 ->(0,2)
+1 -> (1,1)     1 ->(1,1)
+4 -> (2,2)     5 ->(2,0)
+For a given 2d arrays, if sum of left and right diagonals are same,
+then it is a magic square.
+For given array, write a function, 
+which returns 1 if it is a magic square, else 0.
+
+int isMagicSquare(int diag[][3]){
+    //Fill here
+}
+
+if(isMagicSquare(diag)) {
+    printf("Magic Square\n");
+} else {
+    printf("Not a Magic Square");
+}
+
+HINT:
+    You need to just Calculte the sum of left and right diagonals.
+    Create function that takes your array, and returns 1 if it is a 
+    magic square, else 0.
+    Use your function to check if given array is a magic square.
+    Don't forget to call function in main function. 
+    You need to calculation in function.
+OUTPUT:
+	diag1: "Magic Square"
+    diag2: "Not a Magic Square"

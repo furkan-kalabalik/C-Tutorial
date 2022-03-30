@@ -1,0 +1,14 @@
+int exampleArray4[5] = {1, 15, 39, 75, 92}; 
+
+Find corresponding pair for given difference. 
+If difference not occurs between pairs, print "No pair found".
+HINT: 
+	Use two for loops to iterate through the array.
+	Find difference between all pairs, and check 
+	if difference is equal to given difference.(use substraction)
+	If you find equality, print the pair using loop index values.
+INPUT:
+	The given difference is : 53
+OUTPUT:
+	exampleArray4 is 	    : 1, 15, 39, 75, 92
+	The pair are     	    : (39, 92)

@@ -1,0 +1,11 @@
+Write a C program to print following star pattern series of n rows using for loop. 
+
+If your input is 7, expected output shown in below.
+
+*
+**
+***
+****
+*****
+******
+*******

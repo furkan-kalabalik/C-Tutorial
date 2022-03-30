@@ -1,0 +1,11 @@
+Write the program which is take a number between 0-9 from user and prints it alphabetic name.If is number out of range prints error. All operation should be done inside of function name numberToString.
+
+Example
+
+Input
+-----
+Input any number : 5
+
+Output
+------
+5 alphabetic name is : Five

@@ -1,0 +1,15 @@
+int arr[13] = {1, 33, 4, 55, 6, 77, 3, 11, 4, 66, 7, 87, 78};
+
+Find the subarray with the largest sum.
+Subarray sizes are 3.
+For example 1,33,4 is a sub array and 77,3,11 is also a sub array.
+Return the start index of the subarray you find.
+
+int maxSubArray(int arr[]) {
+    //Fill here
+}
+
+Solution max array start from 10th index and goes to 12th index. (7+87+78)
+OUTPUT:
+    Max subarray index: 10
+    

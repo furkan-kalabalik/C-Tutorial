@@ -1,0 +1,9 @@
+Write a C program to print square star(*) pattern series of N rows. N will be entered by user.
+
+If your input is 5, expected output shown in below.
+
+*****
+*****
+*****
+*****
+*****

@@ -1,0 +1,1 @@
+Write a program in C to input a number and check whether the number is prime number or not using do while.

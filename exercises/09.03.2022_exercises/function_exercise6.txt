@@ -1,0 +1,12 @@
+Write a program in C to convert decimal number to binary number using the function.
+Create function named decimalToBinary
+
+Example
+
+Input
+------
+Input any number: 10
+
+Output
+-------
+binary of 10 = 1010

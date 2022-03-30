@@ -1,0 +1,18 @@
+int exampleArray3[9] = {54, 42, 30, 24, 27, 7, 19, 17, 73}; 
+
+Find biggest and smallest value in array.
+HINT: 
+	For finding biggest start with some smallest arbitrary value.
+	For finding smallest start with some biggest arbitrary value.
+	Loop through the array.
+		For finding biggest If the current value is bigger than 
+		the current biggest value,
+			set the current value as the new biggest value.
+		For finding smallest If the current value is smaller than 
+		the current smallest value,
+			set the current value as the new smallest value.
+	
+OUTPUT:
+	exampleArray3 is 	  : 54, 42, 30, 24, 27, 7, 19, 17, 73
+	Biggest element    	  : 73
+	Smallest element      : 7

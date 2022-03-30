@@ -1,0 +1,31 @@
+EXERCISE
+
+Take 3 numbers and 6 bit numbers from user and make setting, clearing and 
+toggling operations.
+
+USER INPUTS
+-----------
+number1, number2, number3
+bit0, bit1, bit2, bit3, bit4, bit5
+
+OUTPUTS
+--------
+new_number1, new_number2, new_number3
+
+Example
+number1, number2, number3
+bit0, bit1, bit2, bit3, bit4, bit5
+for number1 --> set the bits (bit0 and bit1)
+for number2 --> clear the bits (bit2 and bit3)
+for number3 --> toggle the bit (bit4 and bit5)
+
+Test Case
+INPUTS
+number1 = 125 = 0x7d = (0111 1101)
+number2 = 55 = 0x37 = (0011 0111)
+number3 = 96 = 0x60 = (0110 0000)
+bit0 = 7, bit1 = 1, bit2 = 0, bit3 = 5, bit4 = 2, bit5 = 4
+OUTPUT
+new_number1 = 255 = 0xff = (1111 1111)
+new_number2 = 22 = 0x16 = (0001 0110)
+new_number3 = 116 = 0x74 = (0111 0100)

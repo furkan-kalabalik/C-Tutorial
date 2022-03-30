@@ -1,0 +1,19 @@
+Write a C program that performs bit operations(set, clear, toggle) for 2 bits. Number, operation and bit numbers must taken from user. If the operation is not supported print error.
+
+INPUTS
+-------
+int operation --->  0 = clear, 1 = set, 2 = toggle 
+int number
+int bit0, bit1
+
+OUTPUT
+------
+int new_number
+
+Test Case
+----------
+INPUTS														OUTPUT
+operation = 0, number = 7(0111), bit0 = 1, bit1 = 2			new_number = 1 (0001) 
+
+INPUTS				OUTPUT
+operation = 4		Error ! UnSupported Option ! 

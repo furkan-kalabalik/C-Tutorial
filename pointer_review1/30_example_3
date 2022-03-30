@@ -1,0 +1,15 @@
+Create char arrays in your main as follows:
+    char word1[] = {'h', 'e', 'l', 'l', 'o', '\0'};
+    char word2[] = {'w', 'o', 'r', 'l', 'd', '\0'};
+    char word3[] = {'\0'};
+
+Create a function callet toUpperCase that takes a char array as a 
+parameter makes all the characters in the array uppercase.
+
+You cannot use string.h and square brackets to access the characters.
+You need to use pointer arithmetic.
+
+void toUpperCase(char *word)
+{
+    
+}

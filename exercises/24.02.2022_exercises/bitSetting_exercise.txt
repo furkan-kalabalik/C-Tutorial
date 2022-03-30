@@ -1,0 +1,14 @@
+EXERCISE
+
+Write C program to set nth bit of number, print the number from user and the new_number
+
+Inputs --> number, bit_number (Inputs from User)
+Outputs --> new_number
+
+Test Case
+number = 54 (0011 0110)
+bit_number = 6
+
+new_number = 118 (0111 0110)
+
+

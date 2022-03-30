@@ -1,0 +1,20 @@
+Write a C program to read temperature in centigrade and display a suitable message according to temperature state below using Switch Case.
+
+INPUTS
+-------
+int Temp;
+
+Temp 0 then Very Cold weather
+Temp 10 then Cold weather
+Temp 20 then Normal in Temp
+Temp 30 then Its Hot
+Temp 40 then Its Very Hot
+
+if Temp is not equal any value above but
+if it is > 40 print Too Hot
+if it is < 0  print Too Cold
+
+Test Case
+----------
+INPUTS							OUTPUT
+Temp = 40						It's Very Hot !

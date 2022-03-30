@@ -1,0 +1,17 @@
+Write a C program to find maximum between three numbers that taken from user as an input.
+
+INPUTS
+-------
+int a,b,c
+
+OUTPUT
+------
+int maximum
+
+Test Case
+----------
+INPUTS							OUTPUT
+a = 24, b = 51, c = 12			maximum number = 51
+
+
+

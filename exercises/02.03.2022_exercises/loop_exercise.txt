@@ -1,0 +1,10 @@
+Write a C program to find sum of all odd numbers in given range with using loop.
+
+upper limit and lower limit will taken from user.
+
+Example
+-------- 
+lower range = 10
+upper range = 25
+result = 144
+so sum of all odd numbers between 10-25 will be calculated.

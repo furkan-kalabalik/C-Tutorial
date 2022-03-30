@@ -1,0 +1,8 @@
+EXERCISE
+
+take 2 inputs from user, a and bit.
+
+a = the value which user want to apply bit masking
+bit = the bit number which user want to mask
+
+print the result

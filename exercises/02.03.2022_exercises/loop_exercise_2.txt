@@ -1,0 +1,12 @@
+Write a C program to input a number and calculate sum of digits using loop.
+
+user will enter the number
+
+if the input is 1234
+1+2+3+4
+
+result = 10
+
+if the input is 56897
+5+6+8+9+7
+result = 35

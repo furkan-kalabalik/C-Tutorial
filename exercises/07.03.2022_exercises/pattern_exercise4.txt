@@ -1,0 +1,12 @@
+Write a C program to print Pyramid star pattern series of n rows using for loop. 
+
+If your input is 8, expected output shown in below.
+
+       *
+      ***
+     *****
+    *******
+   *********
+  ***********
+ *************
+***************

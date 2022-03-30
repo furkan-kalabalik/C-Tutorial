@@ -1,0 +1,14 @@
+EXERCISE
+
+Write C program to clear nth bit of number, print the number from user and the new_number
+
+Inputs --> number, bit_number (Inputs from User)
+Outputs --> new_number
+
+Test Case
+number = 82 (0101 0010)
+bit_number = 4
+
+new_number = 66 (0100 0010)
+
+

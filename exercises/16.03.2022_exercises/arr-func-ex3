@@ -1,0 +1,46 @@
+int arr1[3][3] = {
+                    {4, 0, 3},
+                    {0, 1, 0},
+                    {3, 0, 4}
+                };
+int arr2[3][3] = {
+                    {1, 4, 3},
+                    {2, 1, 5},
+                    {5, 6, 4}
+                };
+int result[3][3];
+void sumArrays(int arr1[3][3], int arr2[3][3], int res[3][3]){
+    for(int i = 0; i < 3; i++){
+        for(int j = 0; j < 3; j++){
+            res[i][j] = arr1[i][j]+arr2[i][j];
+        }
+    }
+}
+
+void printArr(int arr[3][3]){
+    for(int i = 0; i < 3; i++){
+        for(int j = 0; j < 3; j++){
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+sumArrays(arr1, arr2, result);
+printArr(result);
+
+Write a function that sums two 2D arrays. 
+Pass a result array, with same size, as an argument.
+Fill that result array inside your function. 
+After function returns, print your result array.
+Show that your result array changed inside function and 
+can be readable by main.
+
+HINT:
+    Just like we did previous day. Sum two 2D array as usual but do this inside function.
+    You can use nested for loops. Pass a result array, and fill result array with sums. See that,
+    you can change arrays inside your functions.
+OUTPUT:
+	5 4 6
+    2 2 5
+    8 6 8

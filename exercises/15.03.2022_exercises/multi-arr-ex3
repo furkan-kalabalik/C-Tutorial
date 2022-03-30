@@ -1,0 +1,18 @@
+int notes[5][3] = {
+                    {70, 34, 67}, -->Student0
+                    {42, 15, 24}, -->Student1
+                    {43, 53, 64}, -->Student2
+                    {56, 24, 54}, -->Student3
+                    {100, 63, 89} -->Student4
+                };
+
+Every row corresponding to a student with it exam result. 
+Calculte average note of every student,
+and find the must succesful student's index(row) in the classroom.
+
+HINT:
+    Process every row one by one, start with a small value for holding maxAverageResult.
+    Use two nested for loops to process every row.
+    Calculte average and compare with maxAverageResult.
+OUTPUT:
+	Must succesful student at the "4" row.

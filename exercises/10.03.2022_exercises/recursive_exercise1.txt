@@ -1,0 +1,12 @@
+Write a recursive function in C to find sum of all even or odd numbers in a given range using recursive.
+
+Example
+
+Input
+------------------------
+Input lower limit: 1
+Input upper limit: 100
+
+Output
+--------------------------------------------
+Sum of even numbers between 1 to 100 = 2550

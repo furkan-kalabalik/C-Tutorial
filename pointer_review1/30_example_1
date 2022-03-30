@@ -1,0 +1,19 @@
+a)Define an array of type float called numbers with 10 elements, and initialize the ele-
+ments to the values 0.0, 1.1, 2.2 , ..., 9.9 . Assume the symbolic constant SIZE has been
+defined as 10 .
+b) Define a pointer, nPtr , that points to an object of type float .
+c) Print the elements of array numbers using array index notation. Use a for statement.
+Print each number with 1 position of precision to the right of the decimal point.
+d) Give two separate statements that assign the starting address of array numbers to the
+pointer variable nPtr .
+e) Print the elements of array numbers using pointer/offset notation with the pointer nPtr .
+f) Print the elements of array numbers using pointer/offset notation with the array name
+as the pointer.
+g) Print the elements of array numbers by indexing pointer nPtr .
+h) Refer to element 4 of array numbers using array index notation, pointer/offset notation
+with the array name as the pointer, pointer index notation with nPtr and pointer/offset
+notation with nPtr .
+i) Assuming that nPtr points to the beginning of array numbers , what address is referenced
+by nPtr + 8 ? What value is stored at that location?
+j) Assuming that nPtr points to numbers[5] , what address is referenced by nPtr –= 4 ?
+What’s the value stored at that location?
