@@ -19,11 +19,7 @@ Profit will be calculated as follows:
     profit = debt * rate
 
 int calculateProfit(DebtRates *debtRates) {
-    int profit = 0;
-    for (int i = 0; i < debtRates->size; i++) {
-        profit += debtRates->debts[i] * debtRates->rates[i];
-    }
-    return profit;
+    
 }
 
 Then call the function and print the result.
