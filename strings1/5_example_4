@@ -1,0 +1,27 @@
+Create a struct called Person using typedef and the following fields:
+    char name[50];
+    int age;
+    double height;
+    double weight;
+
+Create a function called createPerson that takes Person pointer 
+and fills the fields inside function with the following values:
+    name: "John Doe"
+    age: 30
+    height: 1.80
+    weight: 75.5
+
+void createPerson(Person *person) {
+    // your code here
+}
+
+Then create a function called printPerson that takes Person pointer
+and prints the following:
+    Name: John Doe
+    Age: 30
+    Height: 1.80
+    Weight: 75.5
+
+void printPerson(Person *person) {
+    // your code here
+}

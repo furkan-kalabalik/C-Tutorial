@@ -1,0 +1,8 @@
+Write a program in C to read a sentence and replace lowercase characters by uppercase and vice-versa.
+(fgets function is used to read a string from the keyboard)
+(islower, isupper, tolower, toupper)
+INPUT:
+    The given sentence is   : This Is A Test String.
+
+OUTPUT:
+    After Case changed the string  is: tHIS iS a tEST sTRING.

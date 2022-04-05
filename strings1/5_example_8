@@ -1,0 +1,16 @@
+Write a function that checks given word is palindrome or not.
+
+INPUT:
+    Enter string: abcba
+OUTPUT:
+    String is palindrome
+
+INPUT:
+    Enter string: abc
+OUTPUT:
+    String is not palindrome
+
+int isPalidrome(char *str)
+{
+    // Write your code here
+}

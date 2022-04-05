@@ -1,0 +1,12 @@
+Write a program in C to replace the spaces of a string with a specific character.
+
+void replaceChars(char *str, char ch)
+{
+    // Write your code here
+}
+
+INPUT: 
+    Enter string: We're in QATAR right now
+    Enter character: *
+OUTPUT:
+    We're*in*QATAR*right*now

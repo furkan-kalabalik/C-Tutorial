@@ -1,0 +1,11 @@
+Write a program in C to count the number of punctuation characters exists in a string.
+
+INPUT: 
+    Enter line: The quick brown fox, jumps over the, lazy dog.
+OUTPUT:
+    Number of punctuation characters: 3
+
+int getNumberOfPunctuation(char *str)
+{
+    // Write your code here
+}

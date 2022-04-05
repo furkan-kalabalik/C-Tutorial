@@ -1,0 +1,5 @@
+Write a function called toInt that converts a string to an integer.
+
+int toInt(char *str) {
+    // TODO: Write your code here
+}

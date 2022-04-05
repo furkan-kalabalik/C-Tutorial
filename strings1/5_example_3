@@ -1,0 +1,10 @@
+Write a program in C to count total number of alphabets, digits and special characters in a string.
+
+INPUT
+    Input the string : abc123@#$%
+
+Expected Output :
+
+Number of Alphabets in the string is : 3
+Number of Digits in the string is : 3
+Number of Special characters in the string is : 4 

@@ -1,0 +1,7 @@
+Write a program in C to input a string and print it.
+
+INPUT:
+    Input the string : Welcome to QATAR
+
+OUTPUT:
+    The string you entered is : Welcome to QATAR

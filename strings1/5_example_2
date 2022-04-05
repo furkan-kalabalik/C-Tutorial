@@ -1,0 +1,9 @@
+Write a program in C to separate the individual characters from a string
+
+INPUT:
+    Input the string : QATAR
+
+OUTPUT:
+    The characters of the string are : 
+    Q A T A R
+ 

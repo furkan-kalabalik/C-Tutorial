@@ -1,0 +1,13 @@
+Write a function called deleteVowels that takes in a string 
+and removes vowels from the string, then put the result to another 
+string argument.
+
+void deleteVowels(char *str, char *result)
+{
+    // your code here
+}
+
+INPUT:
+    Enter string: Hello from QATAR
+OUTPUT:
+    After deleting vowels: hll frm QTR
