@@ -1,0 +1,32 @@
+Create a struct called Person using typedef with the following fields:
+    char name[50];
+    char surname[50];
+    int age;
+    float height;
+    float weight;
+
+Create a function called createPerson that takes Person pointer argument and a string argument.
+string argument in the following format = Bruce,Wayne,24,1.78,84.0
+Than you need to parse, split and assign the string to the Person struct.
+
+You will use atoi function to convert string to int.
+You will use atof function to convert string to float.
+
+EXAMPLE:
+    char numStr[] = "24";
+    int num = atoi(numStr);
+
+    char numStr[] = "1.78";
+    float num = atof(numStr); 
+
+void createPerson(Person *p, char *str) {
+    // Fill your code here
+}
+
+Then create a function called printPerson that takes Person pointer argument.
+This function will print the Person struct to screen.
+
+-----------MAIN--------------
+Person person;
+createPerson(&person, "Bruce,Wayne,24,1.78,84.0");
+printPerson(&person);

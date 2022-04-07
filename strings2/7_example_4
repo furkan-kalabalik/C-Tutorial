@@ -1,0 +1,6 @@
+Create a while loop in main, take string words from user, until user enters "quit"
+Append each word to a char array, and print the array to the screen
+
+User can enter any word, character, you should keep taking words until they enter "quit"
+Make sure your buffer for words is large enough to hold all user input
+

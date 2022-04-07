@@ -1,0 +1,21 @@
+Using given string, parse string into tokes and count occurance of given word.
+
+char str[] = "word1,word2,word3,word4,word1";
+
+int occuranceOfWord(char *str, char *word)
+{
+    //Fill your code
+}
+
+INPUT:
+    str = "word1,word2,word3,word4,word1"
+    word = "word1"
+OUTPUT:
+    Occurance of word1 : 2
+
+INPUT:
+    str = "word1,word2,word3,word4,word1"
+    word = "notpresent"
+OUTPUT:
+    Occurance of word1 : 0
+

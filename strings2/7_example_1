@@ -1,0 +1,13 @@
+Swap two string str1 and str2 using stcpy.
+You can create strings inside main.
+
+void swap(char *str1, char *str2) {
+    //Fill here
+}
+
+INPUT:
+    str1 = "abc"
+    str2 = "xyz"
+OUTPUT:
+    str1 = "xyz"
+    str2 = "abc"

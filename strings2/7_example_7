@@ -1,0 +1,13 @@
+Given two strings str1 and str2, 
+return the index of the first occurrence of str2 in str1, 
+or -1 if str2 is not part of str1.
+
+int searchStr(char *str1, char *str2){
+
+}
+
+Input: str1 = "hello", str2 = "ll"
+Output: 2
+
+Input: str1 = "aaaaa", str2 = "bba"
+Output: -1

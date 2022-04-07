@@ -1,0 +1,32 @@
+For given array of strings, find unique strings and copy them to a new array.
+
+char wordSet [][20] = {
+    "hello",
+    "world",
+    "hello",
+    "qatar",
+    "turkey,
+    "hello",
+    "world",
+}
+
+Function should return how many unique strings are there in the array.
+We will use that return value when we write unique strings to terminal.
+
+int uniqueStrings(char wordSet[][20], char result[][20], int sizeOfWordSet) {
+    //Fill in your code here
+}
+
+INPUT:
+    char wordSet [][20] = {
+    "hello",
+    "world",
+    "hello",
+    "qatar",
+    "turkey,
+    "hello",
+    "world",
+    }
+OUTPUT:
+    qatar
+    turkey
